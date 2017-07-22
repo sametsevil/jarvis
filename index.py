@@ -36,9 +36,6 @@ def jarvis(data):
         location = data[2]
         webbrowser.open_new("https://www.google.com/maps/place/" + location + "/&amp;")
 
-    if "my location" in data:
-        webbrowser.open_new("https://www.instantstreetview.com/@38.47231,27.098917,-73.66h,5p,1z")
-
 
 data = RecordAudio()
 jarvis(data)
